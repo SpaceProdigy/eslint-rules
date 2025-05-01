@@ -16,7 +16,10 @@ export default defineConfig([
     extends: ["js/recommended"],
 
     rules: {
-      "custom-rules/no-let": "error", // 👈 включаем правило
+      "custom-rules/no-let": "error",
+      "custom-rules/no-var": "error",
+      "custom-rules/no-console-log": "error",
+      "custom-rules/name-case": ["error", { preferredCase: "upper" }],
     },
   },
 

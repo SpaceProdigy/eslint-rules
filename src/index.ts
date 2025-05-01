@@ -1,3 +1,7 @@
-const count: number = 0;
+function Test(value: number) {
+  return value;
+}
 
-console.log(count);
+const value = 5;
+
+Test(value);
